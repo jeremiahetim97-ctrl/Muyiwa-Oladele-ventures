@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BestHomes Realty - Find Your Dream Home</title>
+  <meta name="description" content="Buy, rent, and invest in the best properties with BestHomes Realty. Luxury estates, rentals, and investment properties." />
+  <!-- Tailwind Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body class="text-slate-800">
+
+  <!-- NAV -->
+  <header class="bg-white shadow-sm sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="#" class="flex items-center gap-2">
+          <img src="muyiwalogo.png" alt="Company logo" class="h-30 w-20 rounded-full object-cover"/>
+          <div>
+            <div class="text-lg font-semibold text-sky-800">Muyiwa Oladele Ventures</div>
+            <div class="text-xs text-slate-500">Trusted property, Lasting value</div>
+          </div>
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="index.html" class="hover:text-sky-600">Home</a>
+          <a href="about.html" class="hover:text-sky-600">About</a>
+          <a href="rentandbuy.html" class="hover:text-sky-600">Rent/Buy</a>
+          <a href="contact.html" class="hover:text-sky-600">Contact</a>
+          <a href="https://wa.me/2349057336434?text=Hello%20I%20am%20interested%20in%20a%20property" 
+             target="_blank" 
+             class="ml-2 inline-flex items-center gap-2 bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600">
+            <i class="fab fa-whatsapp"></i> Request a Call
+          </a>
+        </nav>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobileToggle" class="md:hidden p-2 rounded-md hover:bg-slate-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+              d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="mobileNav" class="md:hidden hidden border-t bg-white">
+      <div class="px-4 pt-4 pb-6 space-y-3">
+        <a href="index.html" class="block">Home</a>
+        <a href="about.html" class="block">About</a>
+        <a href="rentandbuy.html" class="block">Rent/Buy</a>
+        <a href="contact.html" class="block">Contact</a>
+        <a href="https://wa.me/2349057336434?text=Hello%20I%20am%20interested%20in%20a%20property" 
+           target="_blank" 
+           class="w-full mt-2 bg-orange-500 text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2">
+          <i class="fab fa-whatsapp"></i> Request a Call
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="relative min-h-[90vh] flex items-center">
+    <!-- Background Video -->
+    <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+      <source src="housebackground.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="absolute inset-0 bg-gradient-to-b from-slate-900/60 to-slate-900/40"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6 py-20">
+      <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-8 sm:p-12 max-w-2xl">
+        <h1 class="text-3xl sm:text-5xl font-bold text-sky-800">Find Your Perfect Home Today</h1>
+        <p class="mt-3 text-slate-700">We help you rent, buy, and invest in premium real estate properties tailored to your lifestyle and budget.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="https://wa.me/2349057336434?text=Hello%20I%20want%20to%20request%20a%20call%20regarding%20properties" 
+             target="_blank"
+             class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg flex items-center gap-2">
+            <i class="fab fa-whatsapp"></i> Request a Call
+          </a>
+          <a href="#rentbuy" class="px-4 py-2 rounded-lg border border-sky-700 text-sky-700 hover:bg-sky-700 hover:text-white">Explore Properties</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-bold text-sky-800 mb-4">About Us</h2>
+        <p class="text-slate-700">At <strong>At M.O Ventures,</strong> we are a premier real estate company dedicated to delivering exceptional property solutions that go beyond expectations. With a strong passion for real estate investment and wealth creation, we have built a solid reputation for helping individuals and businesses secure profitable property deals across Nigeria and beyond.
+
+Led by experienced consultant and investor Oladele, our expertise spans property acquisition, development, and sales across residential, commercial, and luxury markets. We are also committed to mentoring aspiring investors, equipping them with the knowledge and strategies to leverage real estate as a tool for long-term financial growth.
+
+At M.O Ventures, our mission is simple — to make property ownership and investment accessible, rewarding, and life-changing for everyone.</p>
+      </div>
+      <div class="bg-gray-300 h-80 flex items-center justify-center rounded-lg shadow-md overflow-hidden">
+  <img src="backgroundimg.jpeg" alt="About M.O Ventures" class="w-full h-full object-cover">
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RENT/BUY -->
+  <section id="rentbuy" class="py-16 max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-sky-800 mb-10">Rent or Buy Properties</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Property 1 -->
+      <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+  <video controls class="w-full h-48 object-cover">
+    <source src="ifako-house1.mp4" type="video/mp4">
+  </video>
+  <div class="p-4">
+    <h3 class="font-semibold text-lg">Luxury Apartment</h3>
+    <p class="text-slate-600">4 bed • 4 bath • Ifako-Ogba, Lagos</p>
+    <p class="text-slate-600 mt-2">This luxurious apartment features Powerful design 4-Bedroom, Detached Duplex & BQ
+    (4 Units Available)TITLE:Global C of O, Survey & Deed, Receipt
+.</p>
+    <p class="mt-2 font-bold text-sky-700">N260M</p>
+    <a href="https://wa.me/2349057336434?text=Interested%20in%20Luxury%20Apartment" target="_blank" class="mt-3 inline-flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
+      <i class="fab fa-whatsapp"></i> WhatsApp Agent
+    </a>
+  </div>
+</div>
+
+      <!-- Property 2 -->
+      <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <video controls class="w-full h-48 object-cover">
+          <source src="house2.mp4" type="video/mp4">
+        </video>
+        <div class="p-4">
+          <h3 class="font-semibold text-lg">Modern Luxury Duplex</h3>
+          <p class="text-slate-600">7 bed • 7 bath • Magodo Phase 2</p>
+            <p class="text-slate-600 mt-2">FANTASTIC BRAND NEW 7 BEDROOM FULLY DETACHED DUPLEX WITH BQ. Enough parking space, Gated location ,Ante Room
+,Security Gate House, Stamp Concrete Floor, Family Lounge, Fully Fitted Kitchen, Jacuzzi, Title: C of O 
+
+.</p>
+          <p class="mt-2 font-bold text-sky-700">N650M</p>
+          <a href="https://wa.me/2349057336434?text=Interested%20in%20Modern%20Luxury%20Duplex" target="_blank" class="mt-3 inline-flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
+            <i class="fab fa-whatsapp"></i> WhatsApp Agent
+          </a>
+        </div>
+      </div>
+
+      <!-- Property 3 -->
+      <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <video controls class="w-full h-48 object-cover">
+          <source src="house3.mp4" type="video/mp4">
+        </video>
+        <div class="p-4">
+          <h3 class="font-semibold text-lg">Exclusive Hotel</h3>
+          <p class="text-slate-600">2 plots • Egbeda</p>
+            <p class="text-slate-600 mt-2">A standard functional 24-Rooms hotel with an exclusive bar and a 2-Storey Club House, Registered survey, deed of assignment and building approval   
+
+.</p>
+          <p class="mt-2 font-bold text-sky-700">N550M</p>
+          <a href="https://wa.me/2349057336434?text=Interested%20in%20Exclusive%20Hotel" target="_blank" class="mt-3 inline-flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
+            <i class="fab fa-whatsapp"></i> WhatsApp Agent
+          </a>
+        </div>
+      </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16 max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-sky-800 mb-10">Get in Touch</h2>
+    <div class="text-center">
+      <p class="text-lg text-slate-700">Call us: <strong>+2349057336434</strong></p>
+      <p class="text-lg text-slate-700">Email: <strong>info@besthomesrealty.com</strong></p>
+      <a href="https://wa.me/2349057336434?text=Hello%20I%20would%20like%20to%20know%20more%20about%20your%20properties" 
+         target="_blank"
+         class="mt-6 inline-flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-sky-900 text-white py-10">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+      <div>
+        <h3 class="font-bold text-lg mb-4">Muyiwa Oladele Ventures</h3>
+        <p class="text-gray-300">Connecting people with their dream properties. Buy, rent, or invest with confidence.</p>
+      </div>
+      <ul class="space-y-2 text-gray-300">
+        <li><a href="#home" class="hover:text-white">Home</a></li>
+        <li><a href="#about" class="hover:text-white">About</a></li>
+        <li><a href="#rentbuy" class="hover:text-white">Rent/Buy</a></li>
+        <li><a href="#contact" class="hover:text-white">Contact</a></li>
+      </ul>
+      <div>
+        <h3 class="font-bold text-lg mb-4">Follow Us</h3>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-gray-400 mt-10 border-t border-gray-700 pt-6">
+      <p>&copy; 2025 Muyiwa Oladele Ventures. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    const mobileToggle = document.getElementById('mobileToggle');
+    const mobileNav = document.getElementById('mobileNav');
+    mobileToggle?.addEventListener('click', () => mobileNav.classList.toggle('hidden'));
+  </script>
+</body>
+</html>

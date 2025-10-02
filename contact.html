@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - M.O Ventures</title>
+  <script src="https://kit.fontawesome.com/a2d9d6a6a6.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+   <!-- NAV -->
+  <header class="bg-white shadow-sm sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="#" class="flex items-center gap-2">
+          <img src="muyiwalogo.png" alt="Company logo" class="h-30 w-20 rounded-full object-cover"/>
+          <div>
+            <div class="text-lg font-semibold text-sky-800">Muyiwa Oladele Ventures</div>
+            <div class="text-xs text-slate-500">Trusted property, Lasting value</div>
+          </div>
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="index.html" class="hover:text-sky-600">Home</a>
+          <a href="about.html" class="hover:text-sky-600">About</a>
+          <a href="rentandbuy.html" class="hover:text-sky-600">Rent/Buy</a>
+          <a href="contact.html" class="hover:text-sky-600">Contact</a>
+          <a href="https://wa.me/2349057336434?text=Hello%20I%20am%20interested%20in%20a%20property" 
+             target="_blank" 
+             class="ml-2 inline-flex items-center gap-2 bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600">
+            <i class="fab fa-whatsapp"></i> Request a Call
+          </a>
+        </nav>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobileToggle" class="md:hidden p-2 rounded-md hover:bg-slate-100 ml-auto">
+  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+      d="M4 6h16M4 12h16M4 18h16"></path>
+  </svg>
+</button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="mobileNav" class="md:hidden hidden border-t bg-white">
+      <div class="px-4 pt-4 pb-6 space-y-3">
+        <a href="index.html" class="block">Home</a>
+        <a href="about.html" class="block">About</a>
+        <a href="rentandbuy.html" class="block">Rent/Buy</a>
+        <a href="contact.html" class="block">Contact</a>
+        <a href="https://wa.me/2349057336434?text=Hello%20I%20am%20interested%20in%20a%20property" 
+           target="_blank" 
+           class="w-full mt-2 bg-orange-500 text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2">
+          <i class="fab fa-whatsapp"></i> Request a Call
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- CONTACT SECTION -->
+  <section class="pt-32 pb-16">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-start">
+      
+      <!-- Left Side: Info -->
+      <div>
+        <h2 class="text-3xl font-bold text-sky-800 mb-4">Contact Us</h2>
+        <p class="text-slate-700 mb-6">We’d love to hear from you! Get in touch with us today to learn more about our services or schedule a consultation.</p>
+        
+        <div class="space-y-4">
+          <p><i class="fas fa-map-marker-alt text-orange-500 mr-2"></i> Ibafo, Ogun State, Nigeria</p>
+          <p><i class="fas fa-phone-alt text-orange-500 mr-2"></i> +234 801 234 5678</p>
+          <p><i class="fas fa-envelope text-orange-500 mr-2"></i> info@moventures.com</p>
+        </div>
+
+        <!-- Embedded Google Map -->
+        <div class="mt-6 rounded-lg overflow-hidden shadow-lg">
+          <iframe 
+            src="https://maps.google.com/maps?q=Ibafo%2C%20Ogun%20State%2C%20Nigeria&hl=en&z=17&output=embed" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Right Side: Form -->
+      <div class="bg-white shadow-lg rounded-xl p-8">
+        <h3 class="text-xl font-bold text-sky-800 mb-6">Send Us a Message</h3>
+        
+        <!-- ✅ Formspree Form -->
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
+          <div>
+            <label class="block text-slate-700 mb-2">Your Name</label>
+            <input type="text" name="name" required class="w-full border border-slate-300 rounded-lg px-4 py-2"/>
+          </div>
+          <div>
+            <label class="block text-slate-700 mb-2">Your Email</label>
+            <input type="email" name="email" required class="w-full border border-slate-300 rounded-lg px-4 py-2"/>
+          </div>
+          <div>
+            <label class="block text-slate-700 mb-2">Message</label>
+            <textarea name="message" rows="5" required class="w-full border border-slate-300 rounded-lg px-4 py-2"></textarea>
+          </div>
+          <button type="submit" class="bg-sky-700 text-white px-6 py-3 rounded-lg hover:bg-sky-800">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+    <footer class="bg-sky-900 text-white py-10">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+      <div>
+        <h3 class="font-bold text-lg mb-4">Muyiwa Oladele Ventures</h3>
+        <p class="text-gray-300">Connecting people with their dream properties. Buy, rent, or invest with confidence.</p>
+      </div>
+      <ul class="space-y-2 text-gray-300">
+        <li><a href="#home" class="hover:text-white">Home</a></li>
+        <li><a href="#about" class="hover:text-white">About</a></li>
+        <li><a href="#rentbuy" class="hover:text-white">Rent/Buy</a></li>
+        <li><a href="#contact" class="hover:text-white">Contact</a></li>
+      </ul>
+      <div>
+        <h3 class="font-bold text-lg mb-4">Follow Us</h3>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-gray-400 mt-10 border-t border-gray-700 pt-6">
+      <p>&copy; 2025 Muyiwa Oladele Ventures. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+<!-- SCRIPT -->
+  <script>
+    const mobileToggle = document.getElementById('mobileToggle');
+    const mobileNav = document.getElementById('mobileNav');
+    mobileToggle?.addEventListener('click', () => mobileNav.classList.toggle('hidden'));
+  </script>
+</body>
+</html>

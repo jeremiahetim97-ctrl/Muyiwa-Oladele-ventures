@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Muyiwa Oladele Ventures - Real Estate Experts</title>
+  <meta name="description" content="We provide sales, marketing, development, and facility management services for real estate." />
+  <!-- Tailwind Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body class="text-slate-800">
+
+<!-- NAV -->
+  <header class="bg-white shadow-sm sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="#" class="flex items-center gap-2">
+          <img src="muyiwalogo.png" alt="Company logo" class="h-30 w-20 rounded-full object-cover"/>
+          <div>
+            <div class="text-lg font-semibold text-sky-800">Muyiwa Oladele Ventures</div>
+            <div class="text-xs text-slate-500">Trusted property, Lasting value</div>
+          </div>
+        </a>
+
+        <!-- Desktop Nav -->
+       <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="index.html" class="hover:text-sky-600">Home</a>
+          <a href="about.html" class="hover:text-sky-600">About</a>
+          <a href="rentandbuy.html" class="hover:text-sky-600">Rent/Buy</a>
+          <a href="contact.html" class="hover:text-sky-600">Contact</a>
+          <a href="https://wa.me/2349057336434?text=Hello%20I%20am%20interested%20in%20a%20property" 
+             target="_blank" 
+             class="ml-2 inline-flex items-center gap-2 bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600">
+            <i class="fab fa-whatsapp"></i> Request a Call
+          </a>
+        </nav>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobileToggle" class="md:hidden p-2 rounded-md hover:bg-slate-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+              d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="mobileNav" class="md:hidden hidden border-t bg-white">
+      <div class="px-4 pt-4 pb-6 space-y-3">
+        <a href="index.html" class="block">Home</a>
+        <a href="about.html" class="block">About</a>
+        <a href="rentandbuy.html" class="block">Rent/Buy</a>
+        <a href="contact.html" class="block">Contact</a>
+        <a href="https://wa.me/2349057336434?text=Hello%20I%20am%20interested%20in%20a%20property" 
+           target="_blank" 
+           class="w-full mt-2 bg-orange-500 text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2">
+          <i class="fab fa-whatsapp"></i> Request a Call
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-bold text-sky-800 mb-4">About Us</h2>
+        <p class="text-slate-700">At <strong>M.O Ventures</strong>, we are a premier real estate company dedicated to delivering exceptional property solutions. With expertise spanning property acquisition, development, and facility management, we make property ownership and investment rewarding and stress-free.</p>
+      </div>
+      <div class="bg-gray-300 h-80 flex items-center justify-center rounded-lg shadow-md overflow-hidden">
+        <img src="backgroundimg.jpeg" alt="About M.O Ventures" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-sky-800 mb-12">Our Services</h2>
+      
+      <!-- SALES & MARKETING -->
+      <h3 class="text-2xl font-semibold text-sky-700 mb-6">Sales & Marketing</h3>
+      <div class="grid md:grid-cols-2 gap-8 mb-12">
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Real Estate Agent</h4>
+          <p>We help clients buy, sell, and lease properties.</p>
+        </div>
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Online Listings</h4>
+          <p>Maintain and update your listings on real estate websites.</p>
+        </div>
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Pricing</h4>
+          <p>We understand market pricing and help set accurate values.</p>
+        </div>
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Communication</h4>
+          <p>We ensure smooth communication with clients and prospects.</p>
+        </div>
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Market Trends</h4>
+          <p>We help you keep up with real estate market trends.</p>
+        </div>
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Negotiation</h4>
+          <p>We present offers and negotiate sales on your behalf.</p>
+        </div>
+      </div>
+
+      <!-- DEVELOPMENT -->
+      <h3 class="text-2xl font-semibold text-sky-700 mb-6">Development</h3>
+      <div class="grid md:grid-cols-2 gap-8 mb-12">
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Site Selection</h4>
+          <p>We help you choose the right location for new properties.</p>
+        </div>
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Construction</h4>
+          <p>We oversee construction of new properties to standards.</p>
+        </div>
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Completion</h4>
+          <p>We ensure every new property is completed as desired.</p>
+        </div>
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Renovation</h4>
+          <p>We redesign and renovate existing properties.</p>
+        </div>
+      </div>
+
+      <!-- FACILITY MANAGEMENT -->
+      <h3 class="text-2xl font-semibold text-sky-700 mb-6">Facility Management</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Tenant Selection</h4>
+          <p>We find and secure reliable tenants for your property.</p>
+        </div>
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Rent Collection</h4>
+          <p>We negotiate and collect rents from tenants.</p>
+        </div>
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Maintenance</h4>
+          <p>We perform maintenance and repairs on properties.</p>
+        </div>
+        <div class="bg-gray-50 shadow rounded-xl p-6">
+          <h4 class="font-bold text-lg mb-2">Lease Compliance</h4>
+          <p>We ensure tenants comply with lease agreements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16 max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-sky-800 mb-10">Get in Touch</h2>
+    <div class="text-center">
+      <p class="text-lg text-slate-700">Call us: <strong>+2349057336434</strong></p>
+      <p class="text-lg text-slate-700">Email: <strong>info@besthomesrealty.com</strong></p>
+      <a href="https://wa.me/2349057336434?text=Hello%20I%20would%20like%20to%20know%20more%20about%20your%20services" 
+         target="_blank"
+         class="mt-6 inline-flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+ <footer class="bg-sky-900 text-white py-10">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+      <div>
+        <h3 class="font-bold text-lg mb-4">Muyiwa Oladele Ventures</h3>
+        <p class="text-gray-300">Connecting people with their dream properties. Buy, rent, or invest with confidence.</p>
+      </div>
+      <ul class="space-y-2 text-gray-300">
+        <li><a href="#home" class="hover:text-white">Home</a></li>
+        <li><a href="#about" class="hover:text-white">About</a></li>
+        <li><a href="#rentbuy" class="hover:text-white">Rent/Buy</a></li>
+        <li><a href="#contact" class="hover:text-white">Contact</a></li>
+      </ul>
+      <div>
+        <h3 class="font-bold text-lg mb-4">Follow Us</h3>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-gray-400 mt-10 border-t border-gray-700 pt-6">
+      <p>&copy; 2025 Muyiwa Oladele Ventures. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    const mobileToggle = document.getElementById('mobileToggle');
+    const mobileNav = document.getElementById('mobileNav');
+    mobileToggle?.addEventListener('click', () => mobileNav.classList.toggle('hidden'));
+  </script>
+</body>
+</html>
